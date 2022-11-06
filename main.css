@@ -25,3 +25,15 @@ div {
     width: 100px;
     background-color: rgb(45, 104, 214);
 }
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    grid-column: 2;
+    height: 50px;
+}
+
+button {
+    width: 100px;
+    gap: 10px;
+}
