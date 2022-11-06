@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    /* grid-auto-rows: minmax(100px, auto); */
+    margin-left: 250px;
+}
+
+div {
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+}
+
+.stacks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 3px;
+}
+
+.stack {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(45, 104, 214);
+}
